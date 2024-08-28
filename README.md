@@ -63,22 +63,31 @@ ___
 	
 **3. Books issued to customers:**
 *	Query book titles and the corresponding customers who have issued them.
+	
 **4. Count books by category:**
 *	Query the total count of books in each category.
+	
 **5. Employees with high salaries:**
 *	Query employee names and positions for those earning above Rs. 50,000.
+	
 **6. Customers with no issues before 2022:**
 *	Query customer names who registered before 2022-01-01 and haven’t issued any books.
+	
 **7. Employee count per branch:**
 *	Query branch numbers and the total count of employees in each branch.
+	
 **8. Customers who issued books in June 2023:**
 *	Query customer names who issued books in June 2023.
+	
 **9. Books containing 'history':**
 *	Query book titles that contain the word "history".
+	
 **10. Branches with more than 5 employees:**
 *	Query branch numbers and employee counts where the count exceeds 5.
+	
 **11. Branch managers and their addresses:**
 *	Query names of employees who manage branches and their respective branch addresses.
+	
 **12. Customers who issued books with high rental prices:**
 *	Query names of customers who issued books with a rental price higher than Rs. 25.
 
