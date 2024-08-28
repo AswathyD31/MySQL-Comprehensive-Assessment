@@ -3,11 +3,11 @@
 # Library Management System
 
 ### Overview
-__
+
 The Library Management System (LMS) is designed to manage and track the information about books, their availability, and transactions related to book issues and returns within a library. The system also manages data related to library branches, employees, and customers. This README provides an overview of the database structure, including tables, relationships, and some common SQL queries to retrieve essential information.
 
 ### Database Structure
-___
+
 The LMS database consists of the following tables:
 
 #### 1.	Branch
@@ -46,11 +46,11 @@ The LMS database consists of the following tables:
 *	Isbn_book (Foreign Key): References ISBN in the Books table.
 
 #### 6.	ReturnStatus
-o	Return_Id (Primary Key): Unique identifier for each return transaction.
-o	Return_cust: Name of the customer returning the book.
-o	Return_book_name: Name of the returned book.
-o	Return_date: Date when the book was returned.
-o	Isbn_book2 (Foreign Key): References ISBN in the Books table.
+*	Return_Id (Primary Key): Unique identifier for each return transaction.
+*	Return_cust: Name of the customer returning the book.
+*	Return_book_name: Name of the returned book.
+*	Return_date: Date when the book was returned.
+*	Isbn_book2 (Foreign Key): References ISBN in the Books table.
 	
 ### Writing SQL Queries
 ___
@@ -80,5 +80,5 @@ ___
 *	Query names of customers who issued books with a rental price higher than Rs. 25.
 
 ### Conclusion
-___
+
 This Library Management System database design and the associated SQL queries provide a robust framework to manage and retrieve critical information efficiently. It tracks the availability, issue, and return of books while also maintaining the data related to employees, branches, and customers. This structure ensures smooth library operations and efficient data management.
