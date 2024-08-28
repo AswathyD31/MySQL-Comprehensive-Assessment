@@ -2,21 +2,21 @@
 
 # Library Management System
 
-### Overview
-
+## Overview
+___
 The Library Management System (LMS) is designed to manage and track the information about books, their availability, and transactions related to book issues and returns within a library. The system also manages data related to library branches, employees, and customers. This README provides an overview of the database structure, including tables, relationships, and some common SQL queries to retrieve essential information.
 
-### Database Structure
-
+## Database Structure
+___
 The LMS database consists of the following tables:
 
-#### 1.	Branch
+### 1.	Branch
 *	Branch_no (Primary Key): Unique identifier for each branch.
 *	Manager_Id: Employee ID of the branch manager.
 *	Branch_address: Physical address of the branch.
 *	Contact_no: Contact number of the branch.
 
-#### 2.	Employee
+### 2.	Employee
 *	Emp_Id (Primary Key): Unique identifier for each employee.
 *	Emp_name: Name of the employee.
 *	Position: Position of the employee within the branch.
@@ -32,27 +32,27 @@ The LMS database consists of the following tables:
 *	Author: Author of the book.
 *	Publisher: Publisher of the book.
 
-#### 4.	Customer
+### 4.	Customer
 *	Customer_Id (Primary Key): Unique identifier for each customer.
 *	Customer_name: Name of the customer.
 *	Customer_address: Address of the customer.
 *	Reg_date: Registration date of the customer.
 
-#### 5.	IssueStatus
+### 5.	IssueStatus
 *	Issue_Id (Primary Key): Unique identifier for each issue transaction.
 *	Issued_cust (Foreign Key): References Customer_Id in the Customer table.
 *	Issued_book_name: Name of the issued book.
 *	Issue_date: Date when the book was issued.
 *	Isbn_book (Foreign Key): References ISBN in the Books table.
 
-#### 6.	ReturnStatus
+### 6.	ReturnStatus
 *	Return_Id (Primary Key): Unique identifier for each return transaction.
 *	Return_cust: Name of the customer returning the book.
 *	Return_book_name: Name of the returned book.
 *	Return_date: Date when the book was returned.
 *	Isbn_book2 (Foreign Key): References ISBN in the Books table.
 	
-### Writing SQL Queries
+## Writing SQL Queries
 ___
 1.	Retrieve available books:
 *	Query the book title, category, and rental price of all available books.
@@ -79,6 +79,6 @@ ___
 12.	Customers who issued books with high rental prices:
 *	Query names of customers who issued books with a rental price higher than Rs. 25.
 
-### Conclusion
-
+## Conclusion
+___
 This Library Management System database design and the associated SQL queries provide a robust framework to manage and retrieve critical information efficiently. It tracks the availability, issue, and return of books while also maintaining the data related to employees, branches, and customers. This structure ensures smooth library operations and efficient data management.
