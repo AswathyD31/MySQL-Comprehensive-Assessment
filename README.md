@@ -1,7 +1,7 @@
 # MySQL-Comprehensive-Assessment
-__
+
 # Library Management System
-__
+
 ### Overview
 __
 The Library Management System (LMS) is designed to manage and track the information about books, their availability, and transactions related to book issues and returns within a library. The system also manages data related to library branches, employees, and customers. This README provides an overview of the database structure, including tables, relationships, and some common SQL queries to retrieve essential information.
