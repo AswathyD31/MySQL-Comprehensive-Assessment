@@ -57,8 +57,10 @@ The LMS database consists of the following tables:
 ___
 **1. Retrieve available books:**
 *	Query the book title, category, and rental price of all available books.
+		
 **2. List employees by salary:**
 *	Query employee names and their salaries, sorted in descending order.
+	
 **3. Books issued to customers:**
 *	Query book titles and the corresponding customers who have issued them.
 **4. Count books by category:**
